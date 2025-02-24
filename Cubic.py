@@ -3,7 +3,7 @@ tom = Turtle()
 
 screen = Screen()
 screen.tracer(False)
-screen.bgcolor('#dff5ff')
+screen.bgcolor('#eacfbd') #eacfbd
 
 
 tom.width(3)
@@ -59,7 +59,7 @@ for count in range(45):
     tom.fd(1)
 tom.fd(100)
 tom.end_fill()
-
+tom.begin_fill()
 for count in range(45):
     tom.rt(1)
     tom.fd(1)
@@ -73,6 +73,7 @@ for count in range(-45):
     tom.rt(1)
     tom.bk(1)
 tom.lt(+45)
+
 
 tom.pu()
 tom.goto(-150,-250)
@@ -479,6 +480,37 @@ tom.rt(180)
 for count in range(25):
     tom.rt(-1)  
     tom.fd(6)
+tom.lt(150)
+for count in range(25):
+    tom.rt(1)  
+    tom.fd(6.5)
+tom.lt(45)
+tom.fd(10)
+tom.fd(-10)
+tom.rt(190)
+for count in range(25):
+    tom.rt(-1)
+    tom.fd(2)
+tom.lt(150)
+for count in range(25):
+    tom.rt(0.5)
+    tom.fd(3.2)  
+tom.lt(120)  
+for count in range(25):
+    tom.rt(1)
+    tom.fd(3)  
+tom.rt(15)  
+for count in range(25):
+    tom.rt(1)
+    tom.fd(1.2)  
+tom.rt(-15)  
+for count in range(25):
+    tom.rt(1)
+    tom.fd(-1.2)
+
+
+
+    
 
 
 
